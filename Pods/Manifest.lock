@@ -1,0 +1,37 @@
+PODS:
+  - ABSteppedProgressBar (0.0.3)
+  - Alamofire (3.1.5)
+  - Koloda (3.0.0):
+    - pop (~> 1.0)
+  - NVActivityIndicatorView (2.5)
+  - pop (1.0.9)
+  - SVProgressHUD (2.0.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - ABSteppedProgressBar
+  - Alamofire (~> 3.1.2)
+  - Koloda
+  - NVActivityIndicatorView
+  - SVProgressHUD
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  ABSteppedProgressBar: 2f4f51ad45a9610f15fb696e2447482e690210c5
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Koloda: 315aa5d2ef4138df90c42ee77c18af0727528e6a
+  NVActivityIndicatorView: 18e82784c9cb2d5f3df3129a3e4754eb075ebca0
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

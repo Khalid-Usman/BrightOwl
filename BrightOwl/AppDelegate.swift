@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import SVProgressHUD
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +16,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()];
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor();
+        
+        NSThread.sleepForTimeInterval(5.0)
+        
+        SVProgressHUDStyle.Custom
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.Gradient)
+        SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.Custom)
+        SVProgressHUD.setBackgroundColor(UIColor(red: 32/255, green: 46/255, blue: 75/255, alpha: 1))
+        SVProgressHUD.setForegroundColor(UIColor.whiteColor())
+        
+        if ((NSUserDefaults.standardUserDefaults().boolForKey("isNotFirstTime") == false) || (NSUserDefaults.standardUserDefaults().valueForKey("expert_id") as! String).isEmpty == true) {
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isNotFirstTime")
+            NSUserDefaults.standardUserDefaults().setObject("", forKey: "expert_id")
+            NSUserDefaults.standardUserDefaults().setObject("", forKey: "auth_token")
+            NSUserDefaults.standardUserDefaults().setObject("", forKey: "profile_pic")
+            NSUserDefaults.standardUserDefaults().synchronize()
+            
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = mainStoryboard.instantiateViewControllerWithIdentifier("loginVC") as! LoginViewController
+            self.window?.rootViewController = loginVC
+            self.window?.makeKeyAndVisible()
+        }
+        else {
+            let appDelegate : AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            appDelegate.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let mainNav = mainStoryboard.instantiateViewControllerWithIdentifier("mainNav") as! UINavigationController
+            appDelegate.window?.rootViewController = mainNav
+            appDelegate.window?.makeKeyAndVisible()
+        }
+        
         // Override point for customization after application launch.
+      
         return true
     }
 

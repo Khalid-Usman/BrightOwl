@@ -7,15 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E53FE2228F2E0E5D66579E7 /* Pods_BrightOwl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BCD24CB41C8482A0C76757 /* Pods_BrightOwl.framework */; };
+		4402BCE21D0FE9360084AE0D /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4402BCE11D0FE9360084AE0D /* Splash.png */; };
+		4402ED221CD4D25F002E1307 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4402ED211CD4D25F002E1307 /* JobDetailViewController.swift */; };
+		4407CFB11CE47CA600F01C0A /* JobCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4407CFB01CE47CA600F01C0A /* JobCustomTableViewCell.swift */; };
+		4414E1121D098C6B0085908C /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414E1111D098C6B0085908C /* CollapsibleTableViewHeader.swift */; };
+		4416F1B01CDB5B7000E91DCF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416F1AF1CDB5B6F00E91DCF /* Reachability.swift */; };
+		4438FA3B1CDA174100D452B8 /* HeaderCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438FA3A1CDA174100D452B8 /* HeaderCustomCell.swift */; };
+		4438FA3D1CDA2F4300D452B8 /* CompetenciesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438FA3C1CDA2F4300D452B8 /* CompetenciesTableViewCell.swift */; };
+		4438FA411CDA58D800D452B8 /* ApplyJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438FA401CDA58D800D452B8 /* ApplyJobViewController.swift */; };
+		44AC4B141CE45EB900C40681 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC4B131CE45EB800C40681 /* BackgroundKolodaAnimator.swift */; };
+		44BECBB31CD7661B0052D493 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BECBB11CD7661B0052D493 /* CircleProgressView.swift */; };
+		44BECBB51CD8B1800052D493 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BECBB41CD8B1800052D493 /* KDCircularProgress.swift */; };
+		44D8E0A71CC606A20023A911 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0A61CC606A20023A911 /* LoginViewController.swift */; };
+		44D8E0A91CC607490023A911 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0A81CC607490023A911 /* Utility.swift */; };
+		44D8E0AC1CC608730023A911 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0AB1CC608730023A911 /* API.swift */; };
+		44D8E0AE1CC63F220023A911 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0AD1CC63F220023A911 /* IntroViewController.swift */; };
+		44D8E0B01CC643DB0023A911 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0AF1CC643DB0023A911 /* MainViewController.swift */; };
+		44D8E0B71CC647B30023A911 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0B61CC647B30023A911 /* CustomKolodaView.swift */; };
+		44D8E0BA1CC65B180023A911 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E0B81CC65B180023A911 /* ExampleOverlayView.swift */; };
+		44D8E0BB1CC65B180023A911 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D8E0B91CC65B180023A911 /* OverlayView.xib */; };
 		44DDF61E1CC4B9BE00C4E76D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DDF61D1CC4B9BE00C4E76D /* AppDelegate.swift */; };
 		44DDF6201CC4B9BE00C4E76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DDF61F1CC4B9BE00C4E76D /* ViewController.swift */; };
 		44DDF6231CC4B9BE00C4E76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DDF6211CC4B9BE00C4E76D /* Main.storyboard */; };
 		44DDF6261CC4B9BE00C4E76D /* BrightOwl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44DDF6241CC4B9BE00C4E76D /* BrightOwl.xcdatamodeld */; };
 		44DDF6281CC4B9BE00C4E76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DDF6271CC4B9BE00C4E76D /* Assets.xcassets */; };
 		44DDF62B1CC4B9BE00C4E76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DDF6291CC4B9BE00C4E76D /* LaunchScreen.storyboard */; };
+		44EB44311CE468A0003E1624 /* SaveJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB44301CE468A0003E1624 /* SaveJobViewController.swift */; };
+		44FCBBC21CE34DC700A70D00 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FCBBBD1CE34DC700A70D00 /* Lato-BlackItalic.ttf */; };
+		44FCBBC31CE34DC700A70D00 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FCBBBE1CE34DC700A70D00 /* Lato-Bold.ttf */; };
+		44FCBBC41CE34DC700A70D00 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FCBBBF1CE34DC700A70D00 /* Lato-BoldItalic.ttf */; };
+		44FCBBC51CE34DC700A70D00 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FCBBC01CE34DC700A70D00 /* Lato-Italic.ttf */; };
+		44FCBBC61CE34DC700A70D00 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FCBBC11CE34DC700A70D00 /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07BCD24CB41C8482A0C76757 /* Pods_BrightOwl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightOwl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4402BCE11D0FE9360084AE0D /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		4402ED211CD4D25F002E1307 /* JobDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		4407CFB01CE47CA600F01C0A /* JobCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobCustomTableViewCell.swift; sourceTree = "<group>"; };
+		4414E1111D098C6B0085908C /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		4416F1AF1CDB5B6F00E91DCF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4438FA3A1CDA174100D452B8 /* HeaderCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCustomCell.swift; sourceTree = "<group>"; };
+		4438FA3C1CDA2F4300D452B8 /* CompetenciesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetenciesTableViewCell.swift; sourceTree = "<group>"; };
+		4438FA401CDA58D800D452B8 /* ApplyJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyJobViewController.swift; sourceTree = "<group>"; };
+		44AC4B131CE45EB800C40681 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
+		44BECBB11CD7661B0052D493 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		44BECBB41CD8B1800052D493 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		44D8E0A61CC606A20023A911 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44D8E0A81CC607490023A911 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		44D8E0AB1CC608730023A911 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		44D8E0AD1CC63F220023A911 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		44D8E0AF1CC643DB0023A911 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		44D8E0B61CC647B30023A911 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		44D8E0B81CC65B180023A911 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		44D8E0B91CC65B180023A911 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		44DDF61A1CC4B9BE00C4E76D /* BrightOwl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightOwl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DDF61D1CC4B9BE00C4E76D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DDF61F1CC4B9BE00C4E76D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +70,15 @@
 		44DDF6271CC4B9BE00C4E76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44DDF62A1CC4B9BE00C4E76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44DDF62C1CC4B9BE00C4E76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EB44301CE468A0003E1624 /* SaveJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveJobViewController.swift; sourceTree = "<group>"; };
+		44FCBBBD1CE34DC700A70D00 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		44FCBBBE1CE34DC700A70D00 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		44FCBBBF1CE34DC700A70D00 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		44FCBBC01CE34DC700A70D00 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		44FCBBC11CE34DC700A70D00 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		44FCBBC81CE3541C00A70D00 /* BrightOwl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrightOwl-Bridging-Header.h"; sourceTree = "<group>"; };
+		B79E7BC664017B393F9993E3 /* Pods-BrightOwl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightOwl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrightOwl/Pods-BrightOwl.debug.xcconfig"; sourceTree = "<group>"; };
+		BD89CBD2C7A880C0CB776387 /* Pods-BrightOwl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightOwl.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrightOwl/Pods-BrightOwl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +86,105 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E53FE2228F2E0E5D66579E7 /* Pods_BrightOwl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123ADF1F799EFD4A771FB57A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B79E7BC664017B393F9993E3 /* Pods-BrightOwl.debug.xcconfig */,
+				BD89CBD2C7A880C0CB776387 /* Pods-BrightOwl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40BE25B477A2FF53811BCAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BCD24CB41C8482A0C76757 /* Pods_BrightOwl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4416F1AE1CDB5B6F00E91DCF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4416F1AF1CDB5B6F00E91DCF /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		4438FA391CDA174100D452B8 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				4407CFB01CE47CA600F01C0A /* JobCustomTableViewCell.swift */,
+				4438FA3C1CDA2F4300D452B8 /* CompetenciesTableViewCell.swift */,
+				4438FA3A1CDA174100D452B8 /* HeaderCustomCell.swift */,
+				4414E1111D098C6B0085908C /* CollapsibleTableViewHeader.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		44BECBAD1CD7661B0052D493 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				44BECBB11CD7661B0052D493 /* CircleProgressView.swift */,
+				44BECBB41CD8B1800052D493 /* KDCircularProgress.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		44D8E0A01CC5FF880023A911 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E0A61CC606A20023A911 /* LoginViewController.swift */,
+				44D8E0AD1CC63F220023A911 /* IntroViewController.swift */,
+				44D8E0AF1CC643DB0023A911 /* MainViewController.swift */,
+				4402ED211CD4D25F002E1307 /* JobDetailViewController.swift */,
+				4438FA401CDA58D800D452B8 /* ApplyJobViewController.swift */,
+				44EB44301CE468A0003E1624 /* SaveJobViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44D8E0A31CC6063F0023A911 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E0A81CC607490023A911 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		44D8E0AA1CC608620023A911 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E0AB1CC608730023A911 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		44D8E0B11CC646D00023A911 /* Koloda */ = {
+			isa = PBXGroup;
+			children = (
+				44AC4B131CE45EB800C40681 /* BackgroundKolodaAnimator.swift */,
+				44D8E0B61CC647B30023A911 /* CustomKolodaView.swift */,
+				44D8E0B81CC65B180023A911 /* ExampleOverlayView.swift */,
+				44D8E0B91CC65B180023A911 /* OverlayView.xib */,
+			);
+			path = Koloda;
+			sourceTree = "<group>";
+		};
 		44DDF6111CC4B9BE00C4E76D = {
 			isa = PBXGroup;
 			children = (
 				44DDF61C1CC4B9BE00C4E76D /* BrightOwl */,
 				44DDF61B1CC4B9BE00C4E76D /* Products */,
+				123ADF1F799EFD4A771FB57A /* Pods */,
+				40BE25B477A2FF53811BCAF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +201,43 @@
 			children = (
 				44DDF61D1CC4B9BE00C4E76D /* AppDelegate.swift */,
 				44DDF61F1CC4B9BE00C4E76D /* ViewController.swift */,
+				44FCBBC71CE3538800A70D00 /* Bridging Header */,
+				44FCBBBC1CE34DC700A70D00 /* lato */,
+				4416F1AE1CDB5B6F00E91DCF /* Reachability */,
+				4438FA391CDA174100D452B8 /* CustomCells */,
+				44BECBAD1CD7661B0052D493 /* ProgressView */,
+				44D8E0B11CC646D00023A911 /* Koloda */,
+				44D8E0AA1CC608620023A911 /* API */,
+				44D8E0A31CC6063F0023A911 /* Utility */,
+				44D8E0A01CC5FF880023A911 /* ViewControllers */,
 				44DDF6211CC4B9BE00C4E76D /* Main.storyboard */,
 				44DDF6271CC4B9BE00C4E76D /* Assets.xcassets */,
+				4402BCE11D0FE9360084AE0D /* Splash.png */,
 				44DDF6291CC4B9BE00C4E76D /* LaunchScreen.storyboard */,
 				44DDF62C1CC4B9BE00C4E76D /* Info.plist */,
 				44DDF6241CC4B9BE00C4E76D /* BrightOwl.xcdatamodeld */,
 			);
 			path = BrightOwl;
+			sourceTree = "<group>";
+		};
+		44FCBBBC1CE34DC700A70D00 /* lato */ = {
+			isa = PBXGroup;
+			children = (
+				44FCBBBD1CE34DC700A70D00 /* Lato-BlackItalic.ttf */,
+				44FCBBBE1CE34DC700A70D00 /* Lato-Bold.ttf */,
+				44FCBBBF1CE34DC700A70D00 /* Lato-BoldItalic.ttf */,
+				44FCBBC01CE34DC700A70D00 /* Lato-Italic.ttf */,
+				44FCBBC11CE34DC700A70D00 /* Lato-Regular.ttf */,
+			);
+			path = lato;
+			sourceTree = SOURCE_ROOT;
+		};
+		44FCBBC71CE3538800A70D00 /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				44FCBBC81CE3541C00A70D00 /* BrightOwl-Bridging-Header.h */,
+			);
+			name = "Bridging Header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DDF62F1CC4B9BE00C4E76D /* Build configuration list for PBXNativeTarget "BrightOwl" */;
 			buildPhases = (
+				F0F9415827C85F74121C35F7 /* Check Pods Manifest.lock */,
 				44DDF6161CC4B9BE00C4E76D /* Sources */,
 				44DDF6171CC4B9BE00C4E76D /* Frameworks */,
 				44DDF6181CC4B9BE00C4E76D /* Resources */,
+				D6D91F8B521E46A374C020A3 /* Embed Pods Frameworks */,
+				11B1B328C4739E583D607413 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +275,7 @@
 				TargetAttributes = {
 					44DDF6191CC4B9BE00C4E76D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FCY9BA8ZMY;
 					};
 				};
 			};
@@ -126,21 +303,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DDF62B1CC4B9BE00C4E76D /* LaunchScreen.storyboard in Resources */,
+				44FCBBC31CE34DC700A70D00 /* Lato-Bold.ttf in Resources */,
+				4402BCE21D0FE9360084AE0D /* Splash.png in Resources */,
+				44D8E0BB1CC65B180023A911 /* OverlayView.xib in Resources */,
+				44FCBBC21CE34DC700A70D00 /* Lato-BlackItalic.ttf in Resources */,
+				44FCBBC61CE34DC700A70D00 /* Lato-Regular.ttf in Resources */,
 				44DDF6281CC4B9BE00C4E76D /* Assets.xcassets in Resources */,
+				44FCBBC41CE34DC700A70D00 /* Lato-BoldItalic.ttf in Resources */,
+				44FCBBC51CE34DC700A70D00 /* Lato-Italic.ttf in Resources */,
 				44DDF6231CC4B9BE00C4E76D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11B1B328C4739E583D607413 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrightOwl/Pods-BrightOwl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D91F8B521E46A374C020A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrightOwl/Pods-BrightOwl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F9415827C85F74121C35F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44DDF6161CC4B9BE00C4E76D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D8E0A91CC607490023A911 /* Utility.swift in Sources */,
 				44DDF6201CC4B9BE00C4E76D /* ViewController.swift in Sources */,
+				44D8E0AE1CC63F220023A911 /* IntroViewController.swift in Sources */,
+				44BECBB51CD8B1800052D493 /* KDCircularProgress.swift in Sources */,
+				44D8E0B71CC647B30023A911 /* CustomKolodaView.swift in Sources */,
+				44BECBB31CD7661B0052D493 /* CircleProgressView.swift in Sources */,
+				4416F1B01CDB5B7000E91DCF /* Reachability.swift in Sources */,
+				4414E1121D098C6B0085908C /* CollapsibleTableViewHeader.swift in Sources */,
 				44DDF61E1CC4B9BE00C4E76D /* AppDelegate.swift in Sources */,
+				4438FA411CDA58D800D452B8 /* ApplyJobViewController.swift in Sources */,
+				44AC4B141CE45EB900C40681 /* BackgroundKolodaAnimator.swift in Sources */,
+				44D8E0A71CC606A20023A911 /* LoginViewController.swift in Sources */,
+				44EB44311CE468A0003E1624 /* SaveJobViewController.swift in Sources */,
+				44D8E0BA1CC65B180023A911 /* ExampleOverlayView.swift in Sources */,
+				4438FA3D1CDA2F4300D452B8 /* CompetenciesTableViewCell.swift in Sources */,
+				4438FA3B1CDA174100D452B8 /* HeaderCustomCell.swift in Sources */,
+				44D8E0AC1CC608730023A911 /* API.swift in Sources */,
+				4407CFB11CE47CA600F01C0A /* JobCustomTableViewCell.swift in Sources */,
 				44DDF6261CC4B9BE00C4E76D /* BrightOwl.xcdatamodeld in Sources */,
+				44D8E0B01CC643DB0023A911 /* MainViewController.swift in Sources */,
+				4402ED221CD4D25F002E1307 /* JobDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +434,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xorlogics, Inc. (FCY9BA8ZMY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xorlogics, Inc. (FCY9BA8ZMY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -206,6 +457,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a6ea3ea6-af53-4795-8bc2-f5a8c02653fc";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -230,7 +482,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xorlogics, Inc. (FCY9BA8ZMY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xorlogics, Inc. (FCY9BA8ZMY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -245,6 +498,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a6ea3ea6-af53-4795-8bc2-f5a8c02653fc";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -253,23 +507,33 @@
 		};
 		44DDF6301CC4B9BE00C4E76D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79E7BC664017B393F9993E3 /* Pods-BrightOwl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khalid Usman (VENJMH2F47)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khalid Usman (VENJMH2F47)";
 				INFOPLIST_FILE = BrightOwl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xorlogics.BrightOwl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6ea3ea6-af53-4795-8bc2-f5a8c02653fc";
 			};
 			name = Debug;
 		};
 		44DDF6311CC4B9BE00C4E76D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD89CBD2C7A880C0CB776387 /* Pods-BrightOwl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khalid Usman (VENJMH2F47)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khalid Usman (VENJMH2F47)";
 				INFOPLIST_FILE = BrightOwl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xorlogics.BrightOwl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6ea3ea6-af53-4795-8bc2-f5a8c02653fc";
 			};
 			name = Release;
 		};
@@ -292,6 +556,7 @@
 				44DDF6311CC4B9BE00C4E76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
